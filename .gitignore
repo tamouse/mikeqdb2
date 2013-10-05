@@ -14,3 +14,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore my personal .rspec settings
+/.rspec
+
+# Ignore the secret token (this should be the DEFAULT, dammit)
+/config/initializers/secret_token.rb
