@@ -12,7 +12,7 @@ development:
 test:
   adapter: postgresql
   database: mikeqdb2_test
-  username: mikeqdb2
+  username: postgres
   password:
   pool: 5
   timeout: 5000
