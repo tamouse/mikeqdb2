@@ -4,6 +4,6 @@ class QuotesController < ApplicationController
   end
 
   def index
-    @quotes = Quote.all
+    @quotes = Quote.all.page(params[:page])
   end
 end

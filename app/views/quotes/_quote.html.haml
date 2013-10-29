@@ -1,6 +1,7 @@
 %div.quote{:id => "quote-#{kwoat.id}"}
+  %h3= link_to "Quote #{kwoat.id}:", kwoat
   %dl
-    %dt Quote:
+    %dt Quote Text:
     %dd= kwoat.quote_text
     %dt Quote Hash:
     %dd= kwoat.quote_hash

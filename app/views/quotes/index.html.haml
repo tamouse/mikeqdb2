@@ -1,3 +1,14 @@
 %h1= %Q{Quotes}
+
+.pagenav= will_paginate quotes
+.pagenav= page_entries_info quotes
+
+%hr/
+
 - quotes.each do |q|
   = render partial: "quote", locals: { kwoat: q }
+
+%hr/
+
+.pagenav= page_entries_info quotes
+.pagenav= will_paginate quotes
