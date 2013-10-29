@@ -22,6 +22,7 @@ gem 'unicorn'
 
 group :development, :test do
   gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'quiet_assets'
   gem 'guard', "~> 1.8.3"
   gem 'guard-rails'
