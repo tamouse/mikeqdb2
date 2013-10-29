@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'json', '>= 1.8.1'
 gem 'rails', '4.0.0'
 gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
@@ -32,6 +33,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'awesome_print'
 end
 
 group :test do

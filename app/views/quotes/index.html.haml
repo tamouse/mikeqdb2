@@ -1,0 +1,8 @@
+%h1= %Q{Quotes}
+- quotes.each do |quote|
+  %div.quote{:id => "quote-#{quote.id}"}
+    %dl
+      %dt Quote:
+      %dd= quote.quote_text
+      %dt Quote Hash:
+      %dd= quote.quote_hash
