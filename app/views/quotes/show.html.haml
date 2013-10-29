@@ -1,7 +1,2 @@
 %h1= %Q{Quote #{quote.id}}
-%div.quote{:id => "quote-#{quote.id}"}
-  %dl
-    %dt Quote:
-    %dd= quote.quote_text
-    %dt Quote Hash:
-    %dd= quote.quote_hash
+= render partial: "quote", locals: { kwoat: quote }
